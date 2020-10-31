@@ -1,5 +1,13 @@
+container "outside access" -- THIS MAKES SENSE
+https://stackoverflow.com/questions/37242217/access-docker-container-from-host-using-containers-name
+container networking -- MUST READS
+http://blog.oddbit.com/post/2014-08-11-four-ways-to-connect-a-docker/
+https://blog.oddbit.com/post/2018-03-12-using-docker-macvlan-networks/
 nginx
 https://kinsta.com/blog/nginx-vs-apache/
+nginx-n-tomcat
+https://www.atlantic.net/vps-hosting/how-to-setup-tomcat-with-nginx-as-a-reverse-proxy-on-ubuntu-18-04/
+https://clouding.io/hc/en-us/articles/360010691359-How-to-Install-Tomcat-with-Nginx-as-a-Reverse-Proxy-on-Ubuntu-18-04
 container swarm
 https://searchitoperations.techtarget.com/definition/Docker-Swarm
 https://upcloud.com/community/stories/docker-swarm-vs-kubernetes-comparison-of-the-two-giants-in-container-orchestration/

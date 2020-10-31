@@ -1,45 +1,59 @@
+blockchain
+wow     https://dzone.com/articles/blockchain-reference-architecture
+		https://blockchain-dns.info/
+		https://www.intelligenthq.com/8-foundations-blockchain-dna-architecture-part-1/
+		https://www.intelligenthq.com/8-foundations-blockchain-dna-architecture-part-2/
+		https://deepai.org/publication/improving-pki-bgp-and-dns-using-blockchain-a-systematic-review
+		https://arxiv.org/pdf/2001.00747v1.pdf
+		https://aaltodoc.aalto.fi/bitstream/handle/123456789/29227/master_Rasi_Jukka_2017.pdf?sequence=1&isAllowed=y
+m2l		https://www.edureka.co/blog/blockchain-architecture/
+		https://www.zignuts.com/blogs/how-blockchain-architecture-works-basic-understanding-of-blockchain-and-its-architecture/
+		https://arxiv.org/pdf/1904.03487.pdf
+		https://addons.mozilla.org/en-US/firefox/addon/b-dns/
 container "outside access" -- THIS MAKES SENSE
-https://stackoverflow.com/questions/37242217/access-docker-container-from-host-using-containers-name
+		https://stackoverflow.com/questions/37242217/access-docker-container-from-host-using-containers-name
 container networking -- MUST READS
-http://blog.oddbit.com/post/2014-08-11-four-ways-to-connect-a-docker/
-https://blog.oddbit.com/post/2018-03-12-using-docker-macvlan-networks/
+		http://blog.oddbit.com/post/2014-08-11-four-ways-to-connect-a-docker/
+		https://blog.oddbit.com/post/2018-03-12-using-docker-macvlan-networks/
+container networkng -- examine
+		https://github.com/jpetazzo/pipework
 nginx
-https://kinsta.com/blog/nginx-vs-apache/
+		https://kinsta.com/blog/nginx-vs-apache/
 nginx-n-tomcat
-https://www.atlantic.net/vps-hosting/how-to-setup-tomcat-with-nginx-as-a-reverse-proxy-on-ubuntu-18-04/
-https://clouding.io/hc/en-us/articles/360010691359-How-to-Install-Tomcat-with-Nginx-as-a-Reverse-Proxy-on-Ubuntu-18-04
+		https://www.atlantic.net/vps-hosting/how-to-setup-tomcat-with-nginx-as-a-reverse-proxy-on-ubuntu-18-04/
+		https://clouding.io/hc/en-us/articles/360010691359-How-to-Install-Tomcat-with-Nginx-as-a-Reverse-Proxy-on-Ubuntu-18-04
 container swarm
-https://searchitoperations.techtarget.com/definition/Docker-Swarm
-https://upcloud.com/community/stories/docker-swarm-vs-kubernetes-comparison-of-the-two-giants-in-container-orchestration/
+		https://searchitoperations.techtarget.com/definition/Docker-Swarm
+		https://upcloud.com/community/stories/docker-swarm-vs-kubernetes-comparison-of-the-two-giants-in-container-orchestration/
 container patterns
-https://l0rd.github.io/containerspatterns/#1
-https://l0rd.github.io/containerspatterns/#19
-https://gotocon.com/dl/goto-berlin-2015/slides/MatthiasLbken_PatternsInAContainerizedWorld.pdf
-https://techbeacon.com/enterprise-it/7-container-design-patterns-you-need-know
-https://static.googleusercontent.com/media/research.google.com/en//pubs/archive/45406.pdf
-https://www.weave.works/blog/container-design-patterns-for-kubernetes/
-https://medium.com/@karthi.net/8-container-design-patterns-that-you-should-know-970a1d6a594c
-https://developers.redhat.com/blog/2020/05/11/top-10-must-know-kubernetes-design-patterns/
-https://kubernetes.io/blog/2016/06/container-design-patterns/
-https://www.usenix.org/sites/default/files/conference/protected-files/hotcloud16_slides_burns.pdf
+		https://l0rd.github.io/containerspatterns/#1
+		https://l0rd.github.io/containerspatterns/#19
+		https://gotocon.com/dl/goto-berlin-2015/slides/MatthiasLbken_PatternsInAContainerizedWorld.pdf
+		https://techbeacon.com/enterprise-it/7-container-design-patterns-you-need-know
+		https://static.googleusercontent.com/media/research.google.com/en//pubs/archive/45406.pdf
+		https://www.weave.works/blog/container-design-patterns-for-kubernetes/
+		https://medium.com/@karthi.net/8-container-design-patterns-that-you-should-know-970a1d6a594c
+		https://developers.redhat.com/blog/2020/05/11/top-10-must-know-kubernetes-design-patterns/
+		https://kubernetes.io/blog/2016/06/container-design-patterns/
+		https://www.usenix.org/sites/default/files/conference/protected-files/hotcloud16_slides_burns.pdf
 container tech
-https://techbeacon.com/enterprise-it/30-essential-container-technology-tools-resources-0
+		https://techbeacon.com/enterprise-it/30-essential-container-technology-tools-resources-0
 python server - client
-https://pymotw.com/2/socket/tcp.html
-https://realpython.com/python-sockets/#echo-client-and-server
-https://www.binarytides.com/python-socket-server-code-example/
-https://www.pubnub.com/blog/socket-programming-in-python-client-server-p2p/
-https://www.geeksforgeeks.org/socket-programming-python/
-https://realpython.com/python-sockets/
-https://www.journaldev.com/15906/python-socket-programming-server-client
-https://docs.aws.amazon.com/polly/latest/dg/example-Python-server-code.html
-https://docs.python.org/3/howto/sockets.html
-https://docs.python.org/3.0/library/socketserver.html
+		https://pymotw.com/2/socket/tcp.html
+		https://realpython.com/python-sockets/#echo-client-and-server
+		https://www.binarytides.com/python-socket-server-code-example/
+		https://www.pubnub.com/blog/socket-programming-in-python-client-server-p2p/
+		https://www.geeksforgeeks.org/socket-programming-python/
+		https://realpython.com/python-sockets/
+		https://www.journaldev.com/15906/python-socket-programming-server-client
+		https://docs.aws.amazon.com/polly/latest/dg/example-Python-server-code.html
+		https://docs.python.org/3/howto/sockets.html
+		https://docs.python.org/3.0/library/socketserver.html
 txt messaging
-https://vpnoverview.com/privacy/anonymous-browsing/call-and-text-anonymously/
-https://smartphones.gadgethacks.com/how-to/anonymous-texting-101-block-your-cell-phone-number-while-sending-text-messages-0139658/
-https://www.techwalla.com/articles/how-to-send-receive-free-online-text-messages
-https://www.rd.com/article/how-to-send-an-anonymous-text/
-https://www.wikihow.com/Text-Without-Showing-Your-Number
-https://cellphones.lovetoknow.com/Anonymous_Texting
-https://tag.wonderhowto.com/block-your-number-while-texting/
+		https://vpnoverview.com/privacy/anonymous-browsing/call-and-text-anonymously/
+		https://smartphones.gadgethacks.com/how-to/anonymous-texting-101-block-your-cell-phone-number-while-sending-text-messages-0139658/
+		https://www.techwalla.com/articles/how-to-send-receive-free-online-text-messages
+		https://www.rd.com/article/how-to-send-an-anonymous-text/
+		https://www.wikihow.com/Text-Without-Showing-Your-Number
+		https://cellphones.lovetoknow.com/Anonymous_Texting
+		https://tag.wonderhowto.com/block-your-number-while-texting/

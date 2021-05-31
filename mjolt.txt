@@ -1,3 +1,10 @@
+python
+https://docs.python-guide.org/writing/structure/
+
+
+setup a bitcoin node
+https://www.limevpn.com/how-to-set-up-a-home-server-and-use-it-as-a-bitcoin-node/
+
 blockchain
 wow     https://dzone.com/articles/blockchain-reference-architecture
 		https://blockchain-dns.info/

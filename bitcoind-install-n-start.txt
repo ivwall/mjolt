@@ -1,0 +1,19 @@
+    1  sudo apt update
+    2  sudo apt upgrade
+    3  sudo wget https://bitcoin.org/bin/bitcoin-core-0.20.1/bitcoin-0.20.1-x86_64-linux-gnu.tar.gz
+    4  ls -l
+    5  mkdir btc01
+    6  mv bitcoin-0.20.1-x86_64-linux-gnu.tar.gz btc01
+    7  cd btc01/
+    8  ls-o
+    9  ls -l
+   10  sha256sum bitcoin-0.20.1-x86_64-linux-gnu.tar.gz
+   11  sudo tar xzf bitcoin-0.20.1-x86_64-linux-gnu.tar.gz
+   12  ls -l
+   13  sudo install -m 0755 -o root -g root -t /usr/local/bin/ bitcoin-0.20.1/bin/*
+   14  bitcoind -daemon
+   15  df -h
+   16  bitcoih-cli
+   17  bitcoin-cli
+   18  sudo shutdown -h now
+   19  ls -l

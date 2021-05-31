@@ -1,6 +1,6 @@
 python
 https://docs.python-guide.org/writing/structure/
-
+https://realpython.com/python-application-layouts/
 
 setup a bitcoin node
 https://www.limevpn.com/how-to-set-up-a-home-server-and-use-it-as-a-bitcoin-node/

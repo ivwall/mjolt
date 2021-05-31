@@ -1,7 +1,13 @@
+bitcoin n python
+https://medium.com/coinmonks/bitcoin-with-python-6595588c2fcf
+
+https://sourcery.ai/blog/python-best-practices/
+https://docs.python-guide.org/writing/structure/
+https://pythonhosted.org/an_example_pypi_project/setuptools.html
+
 python
 https://docs.python-guide.org/writing/structure/
 https://realpython.com/python-application-layouts/
-https://github.com/navdeep-G/samplemod
 
 
 setup a bitcoin node

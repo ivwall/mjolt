@@ -1,3 +1,7 @@
+python project structure
+https://github.com/ionelmc/cookiecutter-pylibrary
+
+
 bitcoin n python
 https://medium.com/coinmonks/bitcoin-with-python-6595588c2fcf
 

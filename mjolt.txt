@@ -1,7 +1,10 @@
 python bitcoin code
 https://github.com/jgarzik/pynode
+
+https://github.com/jgarzik/pynode
 https://thecleverprogrammer.com/2021/01/18/bitcoin-mining-with-python/
 https://github.com/samrushing/caesure
+https://github.com/petertodd/python-bitcoinlib
 
 
 

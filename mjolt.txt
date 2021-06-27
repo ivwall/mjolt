@@ -1,3 +1,39 @@
+
+
+
+https://github.com/BlockchainCommons/Learning-Bitcoin-from-the-Command-Line
+
+
+https://project-awesome.org/igorbarinov/awesome-bitcoin
+https://projects-tracker.b.tc/
+https://github.com/theborakompanioni/bitcoin-spring-boot-starter
+https://sourcecrypto.pub/posts/Bitcoin/practical/
+https://bitcoinfo.xyz/practical/development/
+
+
+
+
+
+
+https://projects-tracker.b.tc/
+https://project-awesome.org/igorbarinov/awesome-bitcoin
+https://sourcecrypto.pub/posts/Bitcoin/practical/
+https://bitcoinfo.xyz/practical/development/
+https://tzstats.com/docs/api#explorer-endpoints
+
+
+// just after the bitgo interview
+https://github.com/clightning4j/esplora_clnd_plugin
+https://docs.cryptowerk.com/quickstart
+https://bitcoindevkit.org/bdk-cli/installation/
+https://github.com/Blockstream/liquid_multisig_issuance
+https://github.com/Blockstream/esplora
+https://99bitcoins.com/block-explorer-blockchain-browser/
+https://coinmarketcap.com/guides/blockexplorer
+https://blockchain.info/api/q
+
+
+
 python bitcoin code
 https://kryptomusing.wordpress.com/2017/06/12/bitcoin-rpc-via-python/
 

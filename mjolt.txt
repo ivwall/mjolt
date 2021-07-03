@@ -1,5 +1,9 @@
 
 
+this one gave me the clue, number 2
+https://ma.ttias.be/retrieving-the-genesis-block-in-bitcoin-with-bitcoin-cli/
+bitcoin-cli getblock <block> 2
+
 
 https://github.com/BlockchainCommons/Learning-Bitcoin-from-the-Command-Line
 

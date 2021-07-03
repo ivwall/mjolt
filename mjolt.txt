@@ -1,8 +1,20 @@
 
 
+sudo apt remove brave-browser
+sudo apt purge brave-browser
+rm -rf ~/.config/BraveSoftware
+rm -rf ~/.cache/BraveSoftware
+
+echo "..hex.." | xxd -r -p
+
+
 this one gave me the clue, number 2
 https://ma.ttias.be/retrieving-the-genesis-block-in-bitcoin-with-bitcoin-cli/
 bitcoin-cli getblock <block> 2
+
+
+https://bitcoin.stackexchange.com/questions/11759/get-non-wallet-transactions-using-bitcoin-rpc-gettransaction
+bitcoin-cli decoderawtransaction $(bitcoin-cli getrawtransaction txid) 
 
 
 https://github.com/BlockchainCommons/Learning-Bitcoin-from-the-Command-Line
@@ -13,10 +25,6 @@ https://projects-tracker.b.tc/
 https://github.com/theborakompanioni/bitcoin-spring-boot-starter
 https://sourcecrypto.pub/posts/Bitcoin/practical/
 https://bitcoinfo.xyz/practical/development/
-
-
-
-
 
 
 https://projects-tracker.b.tc/
@@ -35,7 +43,6 @@ https://github.com/Blockstream/esplora
 https://99bitcoins.com/block-explorer-blockchain-browser/
 https://coinmarketcap.com/guides/blockexplorer
 https://blockchain.info/api/q
-
 
 
 python bitcoin code

@@ -1,4 +1,92 @@
 
 
+dlt01@dlt01-VirtualBox:~/.bitcoin$ cat bitcoin.conf
+server=1
+rpcbind=10.0.2.15
+rpcallowip=0.0.0.0/0
+rpcport=8332
+rpcuser=bitcoin
+rpcpassword=J9JkYnPiXWqgRzg3vAA
+
+
+dlt01@dlt01-VirtualBox:~/.bitcoin$ curl --user bitcoin:J9JkYnPiXWqgRzg3vAA --data-binary '{"jsonrpc":"1.0","id":"curltext","method":"getblockcount","params":[]}' -H 'content-type:text/plain;' http://10.0.2.15:8332
+
+
+{"result":206314,"error":null,"id":"curltext"}
+
+
+dlt01@dlt01-VirtualBox:~/.bitcoin$ curl --user bitcoin:J9JkYnPiXWqgRzg3vAA --data-binary '{"jsonrpc":"1.0","id":"curltext","method":"getblockhash","params":[194389]}' -H 'content-type:text/plain;' http://10.0.2.15:8332
+
+
+arams":[194389]}' -H 'content-type:text/plain;' http://10.0.2.15:8332
+{"result":"00000000000001b16214c0db6aca7d758cf41713a7e9fe08494d6254be0723cd","error":null,"id":"curltext"}
+
+
+dlt01@dlt01-VirtualBox:~/.bitcoin$ curl --user bitcoin:J9JkYnPiXWqgRzg3vAA --data-binary '{"jsonrpc":"1.0","id":"curltext","method":"getblock","params":["00000000000001b16214c0db6aca7d758cf41713a7e9fe08494d6254be0723cd"]}' -H 'content-type:text/plain;' http://10.0.2.15:8332
+
+
+
+
 https://bitcoincore.org/en/download/
 
+
+bitcoin.conf
+rpcuser=someusername 
+rpcpassword=somepassword 
+server=1
+port=8332
+txindex=1
+
+
+
+
+good bitcoin.conf - notes
+https://manpages.ubuntu.com/manpages/precise/man5/bitcoin.conf.5.html
+
+bitcoin.conf
+https://riptutorial.com/bitcoin/example/26000/node-configuration
+rpcuser=someusername 
+rpcpassword=somepassword 
+rpcallowip=localhost
+daemon=1 
+prune=600 
+minrelaytxfee=2500
+maxconnections=20
+maxuploadtarget=250
+
+
+https://bitcoinlib.readthedocs.io/en/latest/source/_static/manuals.setup-bitcoind-connection.html
+[rpc]
+rpcuser=bitcoinrpc
+rpcpassword=some_long_secure_password
+server=1
+port=18332
+txindex=1
+testnet=1
+
+https://counterparty.io/docs/bitcoin_core/
+rpcuser=bitcoinrpc
+rpcpassword=<password>
+server=1
+daemon=1
+rpctimeout=300
+txindex=1
+addrindex=1
+
+
+https://bitcoin.stackexchange.com/questions/84351/how-to-change-rpc-port-for-bitcoind-rpcport-xxx-in-bitcoin-conf-doesnt-work
+testnet=1
+server=1
+daemon=1
+txindex=1
+rpcuser=XXXXXXXXXXXXXXXXXXXXXXX
+rpcpassword=XXXXXXXXXXXXXXXXXXX
+rpcallowip=127.0.0.1
+rpcport=19832
+onlynet=ipv4
+zmqpubrawblock=tcp://127.0.0.1:28332
+zmqpubrawtx=tcp://127.0.0.1:28333
+
+
+
+https://github.com/bitcoin/bitcoin/blob/master/share/examples/bitcoin.conf

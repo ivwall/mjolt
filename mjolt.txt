@@ -1,5 +1,8 @@
 
 
+https://masonicboom.github.io/btcrpcapi/
+
+
 sudo apt remove brave-browser
 sudo apt purge brave-browser
 rm -rf ~/.config/BraveSoftware

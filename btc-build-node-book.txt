@@ -1,4 +1,4 @@
-git wtf
+
 
 dlt01@dlt01-VirtualBox:~/.bitcoin$ cat bitcoin.conf
 server=1
